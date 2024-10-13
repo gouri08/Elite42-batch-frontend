@@ -1,0 +1,19 @@
+body{
+    margin: 12px;
+    padding: 12px;
+}
+p{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    color:solid thistle;
+}
+.one{
+    width: 100px;
+    height: 100px;
+    background-color:gray ;
+    position:absolute;
+    bottom: 120%;
+    left: 150%;
+    top: 150%;
+}
