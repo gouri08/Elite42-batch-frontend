@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.profile-container{
+    background: rgb(146, 145, 147);
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+}
+.p1{
+    text-align: center;
+}
+
+
+.input{
+    color: black;
+    padding: 5px;
+    width: 180px;
+    border-radius: 7px;
+}
+.one{
+    background-color: black;
+    color: #f0f0f0;
+    border-radius: 6px;
+    padding: 5px;
+    width: 85px;
+    position: relative;
+    cursor: pointer;
+    transition: 5s;
+}
+.one:hover{
+    background-color: darkslategrey;
+}
