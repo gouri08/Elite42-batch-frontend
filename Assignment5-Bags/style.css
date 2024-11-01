@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.content {
+    width: 200px; /* Adjust this width as needed */
+    background-color: gainsboro;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.txt1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.img1 {
+    height: 180px;
+    width: 100%; /* Make image responsive to the content width */
+    object-fit: cover;
+}
+
+
+.content:hover {
+    background-color: white;
+}
